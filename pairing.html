@@ -4,7 +4,7 @@
     <head>
 
         <meta charset="utf-8" />
-        <title>Secret Santa Pairing</title>
+        <title>Secret Santa</title>
 
         <script src="vendors/Lodash-3.10.1.js"></script>
         <script src="vendors/Cryptojs.aes-3.1.2.js"></script>
@@ -147,7 +147,7 @@
             <div class="wrapper">
                 <div class="content">
 
-                    <div class="title">Hi <span id="name"></span>! You've been paired with</div>
+                    <div class="title">Hello <span id="name"></span>! Tu as tiré</div>
                     <script>document.getElementById('name').innerText = name</script>
 
                     <div class="pairing">
@@ -163,8 +163,6 @@
                             }
                         </script>
                     </div>
-
-                    <div class="title">Good luck!</div>
 
                     <script>
                         if (queryString.extra) {
